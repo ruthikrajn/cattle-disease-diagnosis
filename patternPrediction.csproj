@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3ACD1D89-1705-42B0-9D42-BC3C996A832B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>patternPrediction</RootNamespace>
+    <AssemblyName>patternPrediction</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Datasets.aspx" />
+    <Content Include="Admin\frmAccount.aspx" />
+    <Content Include="Admin\frmAddCities.aspx" />
+    <Content Include="Admin\frmAddVDoctors.aspx" />
+    <Content Include="Admin\frmAdminHome.aspx" />
+    <Content Include="css\coin-slider.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\cattle1.jpg" />
+    <Content Include="images\cattle10.jpg" />
+    <Content Include="images\cattle2.png" />
+    <Content Include="images\cattle3.jpg" />
+    <Content Include="images\cattle4.jpg" />
+    <Content Include="images\cattle5.gif" />
+    <Content Include="images\cattle6.jpg" />
+    <Content Include="images\cattle7.jpg" />
+    <Content Include="images\cattle8.jpg" />
+    <Content Include="images\cattle9.jpg" />
+    <Content Include="images\content_bg.gif" />
+    <Content Include="images\deletebtn.jpg" />
+    <Content Include="images\DeleteRed.png" />
+    <Content Include="images\edit-10-xxl.png" />
+    <Content Include="images\fbg_bg.gif" />
+    <Content Include="images\footer_bg.gif" />
+    <Content Include="images\fraud1.jpg" />
+    <Content Include="images\fraud2.png" />
+    <Content Include="images\fraud3.jpg" />
+    <Content Include="images\fraud4.jpg" />
+    <Content Include="images\gal1.jpg" />
+    <Content Include="images\gal2.jpg" />
+    <Content Include="images\gal3.jpg" />
+    <Content Include="images\gal4.jpg" />
+    <Content Include="images\gal5.jpg" />
+    <Content Include="images\gal6.jpg" />
+    <Content Include="images\Ifraud1.jpg" />
+    <Content Include="images\Ifraud2.jpg" />
+    <Content Include="images\Ifraud3.jpg" />
+    <Content Include="images\Ifraud4.jpg" />
+    <Content Include="images\Ifraud5.jpg" />
+    <Content Include="images\Ifraud6.jpg" />
+    <Content Include="images\Ifraud7.jpg" />
+    <Content Include="images\Ifraud8.jpg" />
+    <Content Include="images\Ifraud9.jpg" />
+    <Content Include="images\img1.jpg" />
+    <Content Include="images\img2.jpg" />
+    <Content Include="images\infopost.gif" />
+    <Content Include="images\insurance1.jpg" />
+    <Content Include="images\insurance2.jpg" />
+    <Content Include="images\insurance3.jpg" />
+    <Content Include="images\insurance4.jpg" />
+    <Content Include="images\insurance5.jpg" />
+    <Content Include="images\insurance6.jpg" />
+    <Content Include="images\li.gif" />
+    <Content Include="images\main_bg.gif" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\readmore.gif" />
+    <Content Include="images\search.gif" />
+    <Content Include="images\search_bg.gif" />
+    <Content Include="images\slide1.jpg" />
+    <Content Include="images\slide2.jpg" />
+    <Content Include="images\slide3.jpg" />
+    <Content Include="images\slide_a.png" />
+    <Content Include="images\slide_bg.png" />
+    <Content Include="images\slide_p.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\ta-mark.png" />
+    <Content Include="images\userpic.gif" />
+    <Content Include="js\coin-slider.min.js" />
+    <Content Include="js\cufon-titillium-600.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\jquery-1.4.2.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="Logout.aspx" />
+    <Content Include="VDoctor\frmAccount.aspx" />
+    <Content Include="VDoctor\frmDatasets.aspx" />
+    <Content Include="VDoctor\frmPatterns.aspx" />
+    <Content Include="VDoctor\frmPrediction.aspx" />
+    <Content Include="VDoctor\frmVDoctorHome.aspx" />
+    <Content Include="VDoctor\_EclatAlgorithm.aspx" />
+    <Content Include="Visitor\Default.aspx" />
+    <Content Include="Visitor\frmAboutus.aspx" />
+    <Content Include="Visitor\frmAdminLogin.aspx" />
+    <Content Include="Visitor\frmContactus.aspx" />
+    <Content Include="Visitor\frmInfo.aspx" />
+    <Content Include="Visitor\frmLogin.aspx" />
+    <Content Include="Visitor\_Prediction.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminMP.Master.cs">
+      <DependentUpon>AdminMP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMP.Master.designer.cs">
+      <DependentUpon>AdminMP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Datasets.aspx.cs">
+      <DependentUpon>Datasets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Datasets.aspx.designer.cs">
+      <DependentUpon>Datasets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmAccount.aspx.cs">
+      <DependentUpon>frmAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmAccount.aspx.designer.cs">
+      <DependentUpon>frmAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmAddCities.aspx.cs">
+      <DependentUpon>frmAddCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmAddCities.aspx.designer.cs">
+      <DependentUpon>frmAddCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmAddVDoctors.aspx.cs">
+      <DependentUpon>frmAddVDoctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmAddVDoctors.aspx.designer.cs">
+      <DependentUpon>frmAddVDoctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmAdminHome.aspx.cs">
+      <DependentUpon>frmAdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmAdminHome.aspx.designer.cs">
+      <DependentUpon>frmAdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ClassRules.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VDoctor\DoctorMP.Master.cs">
+      <DependentUpon>DoctorMP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\DoctorMP.Master.designer.cs">
+      <DependentUpon>DoctorMP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\frmAccount.aspx.cs">
+      <DependentUpon>frmAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\frmAccount.aspx.designer.cs">
+      <DependentUpon>frmAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\frmDatasets.aspx.cs">
+      <DependentUpon>frmDatasets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\frmDatasets.aspx.designer.cs">
+      <DependentUpon>frmDatasets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\frmPatterns.aspx.cs">
+      <DependentUpon>frmPatterns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\frmPatterns.aspx.designer.cs">
+      <DependentUpon>frmPatterns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\frmPrediction.aspx.cs">
+      <DependentUpon>frmPrediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\frmPrediction.aspx.designer.cs">
+      <DependentUpon>frmPrediction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\frmVDoctorHome.aspx.cs">
+      <DependentUpon>frmVDoctorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\frmVDoctorHome.aspx.designer.cs">
+      <DependentUpon>frmVDoctorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VDoctor\_EclatAlgorithm.aspx.cs">
+      <DependentUpon>_EclatAlgorithm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VDoctor\_EclatAlgorithm.aspx.designer.cs">
+      <DependentUpon>_EclatAlgorithm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\frmAboutus.aspx.cs">
+      <DependentUpon>frmAboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\frmAboutus.aspx.designer.cs">
+      <DependentUpon>frmAboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\frmAdminLogin.aspx.cs">
+      <DependentUpon>frmAdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\frmAdminLogin.aspx.designer.cs">
+      <DependentUpon>frmAdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\frmContactus.aspx.cs">
+      <DependentUpon>frmContactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\frmContactus.aspx.designer.cs">
+      <DependentUpon>frmContactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\frmInfo.aspx.cs">
+      <DependentUpon>frmInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\frmInfo.aspx.designer.cs">
+      <DependentUpon>frmInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\frmLogin.aspx.designer.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\VisitorMP.Master.cs">
+      <DependentUpon>VisitorMP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\VisitorMP.Master.designer.cs">
+      <DependentUpon>VisitorMP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\_Prediction.aspx.cs">
+      <DependentUpon>_Prediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\_Prediction.aspx.designer.cs">
+      <DependentUpon>_Prediction.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMP.Master" />
+    <None Include="Admin\Files\TrainingDataset.xls" />
+    <None Include="Admin\Files\TrainingDataset1.xls" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <Content Include="Visitor\VisitorMP.Master" />
+    <Content Include="VDoctor\DoctorMP.Master" />
+    <None Include="VDoctor\Files\TrainingDataset.xls" />
+    <None Include="VDoctor\Files\TrainingDataset1.xls" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3532</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
